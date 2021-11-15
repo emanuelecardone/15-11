@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+
+    <!-- <h2 id="primo">Titolo h2</h2>
+    <h2 id="">Titolo h2</h2>
+    <h2 id="" class="red">Titolo h2</h2>
+    <h2 id="" class="red">Titolo h2</h2>
+    <h2 id="">Titolo h2</h2>
+
+    <h1 id="titolo-click"></h1> -->
+
+    <div class="wrapper">
+        <h1 class="title">Calcola il prezzo del tuo biglietto</h1>
+        <div class="dati-input">
+          <div class="row">
+            <div class="col">
+              <label for="nome">Nome Cognome</label>
+              <input id="nome" type="text" name="nome" placeholder="Inserisci il tuo nome">
+            </div>
+    
+            <div class="col">
+              <label for="km">Km da percorrere</label>
+              <input id="km" type="number" name="km" placeholder="Inserisci i km">
+            </div>
+    
+            <div class="col">
+              <label for="fascia-eta">Fascia d'et&agrave;</label>
+              <select id="fascia-eta" class="" name="eta">
+                <option value="maggiorenne">Maggiorenne</option>
+                <option value="minorenne">Minorenne</option>
+                <option value="over65">Over 65</option>
+              </select>
+            </div>
+          </div>
+    
+          <div class="row">
+            <button class="btn" id="genera" type="button" name="button">Genera</button>
+            <button class="btn" id="annulla" type="button" name="annulla">Annulla</button>
+          </div>
+        </div>
+    
+        <section class="biglietto">
+          <h2 class="title">Il tuo biglietto</h2>
+          <div id="biglietto" class="hidden">
+            <h2>Dettaglio passeggeri</h2>
+            <div class="dati">
+              <div class="nome">
+                <h2>Nome Passeggero</h2>
+                <h3 id="nome-passeggero"></h3>
+              </div>
+              <div class="offerta">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Offerta</th>
+                      <th>Carrozza</th>
+                      <th>Codice CP</th>
+                      <th>Costo biglietto</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><span id="offerta-applicata"></span></td>
+                      <td><span id="carrozza"></span></td>
+                      <td><span id="codice-cp"></span></td>
+                      <td><span id="costo"></span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+      </div>
+    
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
